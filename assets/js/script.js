@@ -217,5 +217,10 @@ console.log(numberArray);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+numberArray[9] = 100;
+console.log(numberArray);
+
+//oppure
+
 numberArray.splice(-1, 1, 100);
 console.log(numberArray);
