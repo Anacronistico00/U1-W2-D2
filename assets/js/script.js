@@ -215,7 +215,7 @@ console.log(numberArray);
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-numberArray[9] = 100;
-console.log(numberArray);
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+numberArray.splice(-1, 1, 100);
+console.log(numberArray);
